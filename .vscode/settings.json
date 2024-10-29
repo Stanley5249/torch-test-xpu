@@ -1,0 +1,13 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "IntelOneAPI": {
+            "path": "${env:windir}\\System32\\cmd.exe",
+            "args": [
+                "/E:ON",
+                "/K",
+                "C:\\\"Program Files (x86)\"\\Intel\\oneAPI\\setvars.bat intel64 vs2022"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "IntelOneAPI"
+}

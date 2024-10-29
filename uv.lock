@@ -1,0 +1,163 @@
+version = 1
+requires-python = ">=3.12"
+
+[[package]]
+name = "filelock"
+version = "3.13.1"
+source = { registry = "https://download.pytorch.org/whl/test/xpu" }
+wheels = [
+    { url = "https://download.pytorch.org/whl/test/filelock-3.13.1-py3-none-any.whl" },
+]
+
+[[package]]
+name = "fsspec"
+version = "2024.6.1"
+source = { registry = "https://download.pytorch.org/whl/test/xpu" }
+wheels = [
+    { url = "https://download.pytorch.org/whl/test/fsspec-2024.6.1-py3-none-any.whl" },
+]
+
+[[package]]
+name = "jinja2"
+version = "3.1.4"
+source = { registry = "https://download.pytorch.org/whl/test/xpu" }
+dependencies = [
+    { name = "markupsafe" },
+]
+wheels = [
+    { url = "https://download.pytorch.org/whl/test/Jinja2-3.1.4-py3-none-any.whl" },
+]
+
+[[package]]
+name = "markupsafe"
+version = "2.1.5"
+source = { registry = "https://download.pytorch.org/whl/test/xpu" }
+sdist = { url = "https://download.pytorch.org/whl/test/MarkupSafe-2.1.5.tar.gz" }
+wheels = [
+    { url = "https://download.pytorch.org/whl/test/MarkupSafe-2.1.5-cp312-cp312-macosx_10_9_universal2.whl" },
+    { url = "https://download.pytorch.org/whl/test/MarkupSafe-2.1.5-cp312-cp312-macosx_10_9_x86_64.whl" },
+    { url = "https://download.pytorch.org/whl/test/MarkupSafe-2.1.5-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl" },
+    { url = "https://download.pytorch.org/whl/test/MarkupSafe-2.1.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl" },
+    { url = "https://download.pytorch.org/whl/test/MarkupSafe-2.1.5-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl" },
+    { url = "https://download.pytorch.org/whl/test/MarkupSafe-2.1.5-cp312-cp312-win_amd64.whl" },
+]
+
+[[package]]
+name = "mpmath"
+version = "1.3.0"
+source = { registry = "https://download.pytorch.org/whl/test/xpu" }
+wheels = [
+    { url = "https://download.pytorch.org/whl/test/mpmath-1.3.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "networkx"
+version = "3.3"
+source = { registry = "https://download.pytorch.org/whl/test/xpu" }
+wheels = [
+    { url = "https://download.pytorch.org/whl/test/networkx-3.3-py3-none-any.whl" },
+]
+
+[[package]]
+name = "numpy"
+version = "1.26.3"
+source = { registry = "https://download.pytorch.org/whl/test/xpu" }
+wheels = [
+    { url = "https://download.pytorch.org/whl/test/numpy-1.26.3-cp312-cp312-macosx_10_9_x86_64.whl" },
+    { url = "https://download.pytorch.org/whl/test/numpy-1.26.3-cp312-cp312-macosx_11_0_arm64.whl" },
+    { url = "https://download.pytorch.org/whl/test/numpy-1.26.3-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl" },
+    { url = "https://download.pytorch.org/whl/test/numpy-1.26.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl" },
+    { url = "https://download.pytorch.org/whl/test/numpy-1.26.3-cp312-cp312-win_amd64.whl" },
+]
+
+[[package]]
+name = "packaging"
+version = "22.0"
+source = { registry = "https://download.pytorch.org/whl/test/xpu" }
+wheels = [
+    { url = "https://download.pytorch.org/whl/test/packaging-22.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "pip"
+version = "24.3.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/f4/b1/b422acd212ad7eedddaf7981eee6e5de085154ff726459cf2da7c5a184c1/pip-24.3.1.tar.gz", hash = "sha256:ebcb60557f2aefabc2e0f918751cd24ea0d56d8ec5445fe1807f1d2109660b99", size = 1931073 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ef/7d/500c9ad20238fcfcb4cb9243eede163594d7020ce87bd9610c9e02771876/pip-24.3.1-py3-none-any.whl", hash = "sha256:3790624780082365f47549d032f3770eeb2b1e8bd1f7b2e02dace1afa361b4ed", size = 1822182 },
+]
+
+[[package]]
+name = "pytorch-triton-xpu"
+version = "3.1.0"
+source = { registry = "https://download.pytorch.org/whl/test/xpu" }
+dependencies = [
+    { name = "packaging" },
+]
+wheels = [
+    { url = "https://download.pytorch.org/whl/test/pytorch_triton_xpu-3.1.0-cp312-cp312-linux_x86_64.whl" },
+]
+
+[[package]]
+name = "setuptools"
+version = "70.0.0"
+source = { registry = "https://download.pytorch.org/whl/test/xpu" }
+wheels = [
+    { url = "https://download.pytorch.org/whl/test/setuptools-70.0.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "sympy"
+version = "1.13.1"
+source = { registry = "https://download.pytorch.org/whl/test/xpu" }
+dependencies = [
+    { name = "mpmath" },
+]
+wheels = [
+    { url = "https://download.pytorch.org/whl/test/sympy-1.13.1-py3-none-any.whl" },
+]
+
+[[package]]
+name = "torch"
+version = "2.5.1+xpu"
+source = { registry = "https://download.pytorch.org/whl/test/xpu" }
+dependencies = [
+    { name = "filelock" },
+    { name = "fsspec" },
+    { name = "jinja2" },
+    { name = "networkx" },
+    { name = "pytorch-triton-xpu", marker = "python_full_version < '3.13' and platform_machine == 'x86_64' and platform_system == 'Linux'" },
+    { name = "setuptools" },
+    { name = "sympy" },
+    { name = "typing-extensions" },
+]
+wheels = [
+    { url = "https://download.pytorch.org/whl/test/xpu/torch-2.5.1%2Bxpu-cp312-cp312-linux_x86_64.whl" },
+    { url = "https://download.pytorch.org/whl/test/xpu/torch-2.5.1%2Bxpu-cp312-cp312-win_amd64.whl" },
+    { url = "https://download.pytorch.org/whl/test/xpu/torch-2.5.1%2Bxpu-cp313-cp313-linux_x86_64.whl" },
+]
+
+[[package]]
+name = "torch-test-xpu"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "numpy" },
+    { name = "pip" },
+    { name = "torch" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "numpy", specifier = ">=1.26.3" },
+    { name = "pip", specifier = ">=24.3.1" },
+    { name = "torch", specifier = ">=2.5.0" },
+]
+
+[[package]]
+name = "typing-extensions"
+version = "4.12.2"
+source = { registry = "https://download.pytorch.org/whl/test/xpu" }
+wheels = [
+    { url = "https://download.pytorch.org/whl/test/typing_extensions-4.12.2-py3-none-any.whl" },
+]

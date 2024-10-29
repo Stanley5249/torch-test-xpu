@@ -1,0 +1,14 @@
+[project]
+name = "torch-test-xpu"
+version = "0.1.0"
+description = "Testing PyTorch functionality with Intel GPUs (XPU)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=1.26.3",
+    "pip>=24.3.1",
+    "torch>=2.5.0",
+]
+
+[[tool.uv.index]]
+url = "https://download.pytorch.org/whl/test/xpu"
