@@ -2,9 +2,7 @@
 
 ## Description
 
-Template for starting PyTorch projects with Intel GPUs (XPU) on Windows.
-
-For more information, follow the official guide [here](https://pytorch.org/docs/stable/notes/get_start_xpu.html).
+Template for starting PyTorch projects with Intel GPUs (XPU) on Windows. For more information, follow the official guide [here](https://pytorch.org/docs/stable/notes/get_start_xpu.html). This repository is related to the correct steps for installation, as discussed [here](https://github.com/pytorch/pytorch/issues/138986#issuecomment-2447386700).
 
 ## Installation
 
@@ -37,7 +35,7 @@ For more information, follow the official guide [here](https://pytorch.org/docs/
 
    Ensure you have Microsoft Visual Studio installed. The Intel Support Package will notify you if it's missing. Download Visual Studio from [here](https://visualstudio.microsoft.com/downloads/). For a lightweight option, on the same page, go to **All Downloads > Tools for Visual Studio**, and download the Build Tools for Visual Studio. Remember to set the Path variable.
 
-   The oneAPI Environment script only works on CMD; it will not work on PowerShell.
+   The oneAPI Environment script only works on CMD; it will not work on PowerShell. For how to automatically source the environment within VSCode, see [.vscode/settings.json](.vscode/settings.json).
 
 ## License
 
