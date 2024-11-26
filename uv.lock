@@ -1,81 +1,86 @@
 version = 1
 requires-python = ">=3.12"
+resolution-markers = [
+    "platform_system == 'Windows'",
+]
+supported-markers = [
+    "platform_system == 'Windows'",
+]
 
 [[package]]
 name = "filelock"
-version = "3.13.1"
-source = { registry = "https://download.pytorch.org/whl/test/xpu" }
+version = "3.16.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/9d/db/3ef5bb276dae18d6ec2124224403d1d67bccdbefc17af4cc8f553e341ab1/filelock-3.16.1.tar.gz", hash = "sha256:c249fbfcd5db47e5e2d6d62198e565475ee65e4831e2561c8e313fa7eb961435", size = 18037 }
 wheels = [
-    { url = "https://download.pytorch.org/whl/test/filelock-3.13.1-py3-none-any.whl" },
+    { url = "https://files.pythonhosted.org/packages/b9/f8/feced7779d755758a52d1f6635d990b8d98dc0a29fa568bbe0625f18fdf3/filelock-3.16.1-py3-none-any.whl", hash = "sha256:2082e5703d51fbf98ea75855d9d5527e33d8ff23099bec374a134febee6946b0", size = 16163 },
 ]
 
 [[package]]
 name = "fsspec"
-version = "2024.6.1"
-source = { registry = "https://download.pytorch.org/whl/test/xpu" }
+version = "2024.10.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/a0/52/f16a068ebadae42526484c31f4398e62962504e5724a8ba5dc3409483df2/fsspec-2024.10.0.tar.gz", hash = "sha256:eda2d8a4116d4f2429db8550f2457da57279247dd930bb12f821b58391359493", size = 286853 }
 wheels = [
-    { url = "https://download.pytorch.org/whl/test/fsspec-2024.6.1-py3-none-any.whl" },
+    { url = "https://files.pythonhosted.org/packages/c6/b2/454d6e7f0158951d8a78c2e1eb4f69ae81beb8dca5fee9809c6c99e9d0d0/fsspec-2024.10.0-py3-none-any.whl", hash = "sha256:03b9a6785766a4de40368b88906366755e2819e758b83705c88cd7cb5fe81871", size = 179641 },
 ]
 
 [[package]]
 name = "jinja2"
 version = "3.1.4"
-source = { registry = "https://download.pytorch.org/whl/test/xpu" }
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "markupsafe" },
+    { name = "markupsafe", marker = "platform_system == 'Windows'" },
 ]
+sdist = { url = "https://files.pythonhosted.org/packages/ed/55/39036716d19cab0747a5020fc7e907f362fbf48c984b14e62127f7e68e5d/jinja2-3.1.4.tar.gz", hash = "sha256:4a3aee7acbbe7303aede8e9648d13b8bf88a429282aa6122a993f0ac800cb369", size = 240245 }
 wheels = [
-    { url = "https://download.pytorch.org/whl/test/Jinja2-3.1.4-py3-none-any.whl" },
+    { url = "https://files.pythonhosted.org/packages/31/80/3a54838c3fb461f6fec263ebf3a3a41771bd05190238de3486aae8540c36/jinja2-3.1.4-py3-none-any.whl", hash = "sha256:bc5dd2abb727a5319567b7a813e6a2e7318c39f4f487cfe6c89c6f9c7d25197d", size = 133271 },
 ]
 
 [[package]]
 name = "markupsafe"
-version = "2.1.5"
-source = { registry = "https://download.pytorch.org/whl/test/xpu" }
-sdist = { url = "https://download.pytorch.org/whl/test/MarkupSafe-2.1.5.tar.gz" }
+version = "3.0.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/b2/97/5d42485e71dfc078108a86d6de8fa46db44a1a9295e89c5d6d4a06e23a62/markupsafe-3.0.2.tar.gz", hash = "sha256:ee55d3edf80167e48ea11a923c7386f4669df67d7994554387f84e7d8b0a2bf0", size = 20537 }
 wheels = [
-    { url = "https://download.pytorch.org/whl/test/MarkupSafe-2.1.5-cp312-cp312-macosx_10_9_universal2.whl" },
-    { url = "https://download.pytorch.org/whl/test/MarkupSafe-2.1.5-cp312-cp312-macosx_10_9_x86_64.whl" },
-    { url = "https://download.pytorch.org/whl/test/MarkupSafe-2.1.5-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl" },
-    { url = "https://download.pytorch.org/whl/test/MarkupSafe-2.1.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl" },
-    { url = "https://download.pytorch.org/whl/test/MarkupSafe-2.1.5-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl" },
-    { url = "https://download.pytorch.org/whl/test/MarkupSafe-2.1.5-cp312-cp312-win_amd64.whl" },
+    { url = "https://files.pythonhosted.org/packages/51/ae/97827349d3fcffee7e184bdf7f41cd6b88d9919c80f0263ba7acd1bbcb18/MarkupSafe-3.0.2-cp312-cp312-win32.whl", hash = "sha256:0f4ca02bea9a23221c0182836703cbf8930c5e9454bacce27e767509fa286a30", size = 15097 },
+    { url = "https://files.pythonhosted.org/packages/c1/80/a61f99dc3a936413c3ee4e1eecac96c0da5ed07ad56fd975f1a9da5bc630/MarkupSafe-3.0.2-cp312-cp312-win_amd64.whl", hash = "sha256:8e06879fc22a25ca47312fbe7c8264eb0b662f6db27cb2d3bbbc74b1df4b9b87", size = 15601 },
+    { url = "https://files.pythonhosted.org/packages/ee/55/c271b57db36f748f0e04a759ace9f8f759ccf22b4960c270c78a394f58be/MarkupSafe-3.0.2-cp313-cp313-win32.whl", hash = "sha256:bcf3e58998965654fdaff38e58584d8937aa3096ab5354d493c77d1fdd66d7a1", size = 15101 },
+    { url = "https://files.pythonhosted.org/packages/29/88/07df22d2dd4df40aba9f3e402e6dc1b8ee86297dddbad4872bd5e7b0094f/MarkupSafe-3.0.2-cp313-cp313-win_amd64.whl", hash = "sha256:e6a2a455bd412959b57a172ce6328d2dd1f01cb2135efda2e4576e8a23fa3b0f", size = 15603 },
+    { url = "https://files.pythonhosted.org/packages/82/78/fedb03c7d5380df2427038ec8d973587e90561b2d90cd472ce9254cf348b/MarkupSafe-3.0.2-cp313-cp313t-win32.whl", hash = "sha256:ba8062ed2cf21c07a9e295d5b8a2a5ce678b913b45fdf68c32d95d6c1291e0b6", size = 15208 },
+    { url = "https://files.pythonhosted.org/packages/4f/65/6079a46068dfceaeabb5dcad6d674f5f5c61a6fa5673746f42a9f4c233b3/MarkupSafe-3.0.2-cp313-cp313t-win_amd64.whl", hash = "sha256:e444a31f8db13eb18ada366ab3cf45fd4b31e4db1236a4448f68778c1d1a5a2f", size = 15739 },
 ]
 
 [[package]]
 name = "mpmath"
 version = "1.3.0"
-source = { registry = "https://download.pytorch.org/whl/test/xpu" }
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e0/47/dd32fa426cc72114383ac549964eecb20ecfd886d1e5ccf5340b55b02f57/mpmath-1.3.0.tar.gz", hash = "sha256:7a28eb2a9774d00c7bc92411c19a89209d5da7c4c9a9e227be8330a23a25b91f", size = 508106 }
 wheels = [
-    { url = "https://download.pytorch.org/whl/test/mpmath-1.3.0-py3-none-any.whl" },
+    { url = "https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl", hash = "sha256:a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c", size = 536198 },
 ]
 
 [[package]]
 name = "networkx"
-version = "3.3"
-source = { registry = "https://download.pytorch.org/whl/test/xpu" }
+version = "3.4.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/fd/1d/06475e1cd5264c0b870ea2cc6fdb3e37177c1e565c43f56ff17a10e3937f/networkx-3.4.2.tar.gz", hash = "sha256:307c3669428c5362aab27c8a1260aa8f47c4e91d3891f48be0141738d8d053e1", size = 2151368 }
 wheels = [
-    { url = "https://download.pytorch.org/whl/test/networkx-3.3-py3-none-any.whl" },
+    { url = "https://files.pythonhosted.org/packages/b9/54/dd730b32ea14ea797530a4479b2ed46a6fb250f682a9cfb997e968bf0261/networkx-3.4.2-py3-none-any.whl", hash = "sha256:df5d4365b724cf81b8c6a7312509d0c22386097011ad1abe274afd5e9d3bbc5f", size = 1723263 },
 ]
 
 [[package]]
 name = "numpy"
-version = "1.26.3"
-source = { registry = "https://download.pytorch.org/whl/test/xpu" }
+version = "2.1.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/25/ca/1166b75c21abd1da445b97bf1fa2f14f423c6cfb4fc7c4ef31dccf9f6a94/numpy-2.1.3.tar.gz", hash = "sha256:aa08e04e08aaf974d4458def539dece0d28146d866a39da5639596f4921fd761", size = 20166090 }
 wheels = [
-    { url = "https://download.pytorch.org/whl/test/numpy-1.26.3-cp312-cp312-macosx_10_9_x86_64.whl" },
-    { url = "https://download.pytorch.org/whl/test/numpy-1.26.3-cp312-cp312-macosx_11_0_arm64.whl" },
-    { url = "https://download.pytorch.org/whl/test/numpy-1.26.3-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl" },
-    { url = "https://download.pytorch.org/whl/test/numpy-1.26.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl" },
-    { url = "https://download.pytorch.org/whl/test/numpy-1.26.3-cp312-cp312-win_amd64.whl" },
-]
-
-[[package]]
-name = "packaging"
-version = "22.0"
-source = { registry = "https://download.pytorch.org/whl/test/xpu" }
-wheels = [
-    { url = "https://download.pytorch.org/whl/test/packaging-22.0-py3-none-any.whl" },
+    { url = "https://files.pythonhosted.org/packages/ac/b6/26108cf2cfa5c7e03fb969b595c93131eab4a399762b51ce9ebec2332e80/numpy-2.1.3-cp312-cp312-win32.whl", hash = "sha256:e6988e90fcf617da2b5c78902fe8e668361b43b4fe26dbf2d7b0f8034d4cafb9", size = 6239077 },
+    { url = "https://files.pythonhosted.org/packages/a6/84/fa11dad3404b7634aaab50733581ce11e5350383311ea7a7010f464c0170/numpy-2.1.3-cp312-cp312-win_amd64.whl", hash = "sha256:0d30c543f02e84e92c4b1f415b7c6b5326cbe45ee7882b6b77db7195fb971e3a", size = 12566858 },
+    { url = "https://files.pythonhosted.org/packages/e9/6a/d64514dcecb2ee70bfdfad10c42b76cab657e7ee31944ff7a600f141d9e9/numpy-2.1.3-cp313-cp313-win32.whl", hash = "sha256:50ca6aba6e163363f132b5c101ba078b8cbd3fa92c7865fd7d4d62d9779ac29f", size = 6236021 },
+    { url = "https://files.pythonhosted.org/packages/bb/f9/12297ed8d8301a401e7d8eb6b418d32547f1d700ed3c038d325a605421a4/numpy-2.1.3-cp313-cp313-win_amd64.whl", hash = "sha256:747641635d3d44bcb380d950679462fae44f54b131be347d5ec2bce47d3df9ed", size = 12560405 },
+    { url = "https://files.pythonhosted.org/packages/24/d7/78a40ed1d80e23a774cb8a34ae8a9493ba1b4271dde96e56ccdbab1620ef/numpy-2.1.3-cp313-cp313t-win32.whl", hash = "sha256:08788d27a5fd867a663f6fc753fd7c3ad7e92747efc73c53bca2f19f8bc06f48", size = 6291907 },
+    { url = "https://files.pythonhosted.org/packages/86/09/a5ab407bd7f5f5599e6a9261f964ace03a73e7c6928de906981c31c38082/numpy-2.1.3-cp313-cp313t-win_amd64.whl", hash = "sha256:2564fbdf2b99b3f815f2107c1bbc93e2de8ee655a69c261363a1172a79a257d4", size = 12644098 },
 ]
 
 [[package]]
@@ -88,33 +93,24 @@ wheels = [
 ]
 
 [[package]]
-name = "pytorch-triton-xpu"
-version = "3.1.0"
-source = { registry = "https://download.pytorch.org/whl/test/xpu" }
-dependencies = [
-    { name = "packaging" },
-]
-wheels = [
-    { url = "https://download.pytorch.org/whl/test/pytorch_triton_xpu-3.1.0-cp312-cp312-linux_x86_64.whl" },
-]
-
-[[package]]
 name = "setuptools"
-version = "70.0.0"
-source = { registry = "https://download.pytorch.org/whl/test/xpu" }
+version = "75.6.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/43/54/292f26c208734e9a7f067aea4a7e282c080750c4546559b58e2e45413ca0/setuptools-75.6.0.tar.gz", hash = "sha256:8199222558df7c86216af4f84c30e9b34a61d8ba19366cc914424cdbd28252f6", size = 1337429 }
 wheels = [
-    { url = "https://download.pytorch.org/whl/test/setuptools-70.0.0-py3-none-any.whl" },
+    { url = "https://files.pythonhosted.org/packages/55/21/47d163f615df1d30c094f6c8bbb353619274edccf0327b185cc2493c2c33/setuptools-75.6.0-py3-none-any.whl", hash = "sha256:ce74b49e8f7110f9bf04883b730f4765b774ef3ef28f722cce7c273d253aaf7d", size = 1224032 },
 ]
 
 [[package]]
 name = "sympy"
 version = "1.13.1"
-source = { registry = "https://download.pytorch.org/whl/test/xpu" }
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "mpmath" },
+    { name = "mpmath", marker = "platform_system == 'Windows'" },
 ]
+sdist = { url = "https://files.pythonhosted.org/packages/ca/99/5a5b6f19ff9f083671ddf7b9632028436167cd3d33e11015754e41b249a4/sympy-1.13.1.tar.gz", hash = "sha256:9cebf7e04ff162015ce31c9c6c9144daa34a93bd082f54fd8f12deca4f47515f", size = 7533040 }
 wheels = [
-    { url = "https://download.pytorch.org/whl/test/sympy-1.13.1-py3-none-any.whl" },
+    { url = "https://files.pythonhosted.org/packages/b2/fe/81695a1aa331a842b582453b605175f419fe8540355886031328089d840a/sympy-1.13.1-py3-none-any.whl", hash = "sha256:db36cdc64bf61b9b24578b6f7bab1ecdd2452cf008f34faa33776680c26d66f8", size = 6189177 },
 ]
 
 [[package]]
@@ -122,14 +118,13 @@ name = "torch"
 version = "2.5.1+xpu"
 source = { registry = "https://download.pytorch.org/whl/test/xpu" }
 dependencies = [
-    { name = "filelock" },
-    { name = "fsspec" },
-    { name = "jinja2" },
-    { name = "networkx" },
-    { name = "pytorch-triton-xpu", marker = "python_full_version < '3.13' and platform_machine == 'x86_64' and platform_system == 'Linux'" },
-    { name = "setuptools" },
-    { name = "sympy" },
-    { name = "typing-extensions" },
+    { name = "filelock", marker = "platform_system == 'Windows'" },
+    { name = "fsspec", marker = "platform_system == 'Windows'" },
+    { name = "jinja2", marker = "platform_system == 'Windows'" },
+    { name = "networkx", marker = "platform_system == 'Windows'" },
+    { name = "setuptools", marker = "platform_system == 'Windows'" },
+    { name = "sympy", marker = "platform_system == 'Windows'" },
+    { name = "typing-extensions", marker = "platform_system == 'Windows'" },
 ]
 wheels = [
     { url = "https://download.pytorch.org/whl/test/xpu/torch-2.5.1%2Bxpu-cp312-cp312-linux_x86_64.whl" },
@@ -142,22 +137,23 @@ name = "torch-test-xpu"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
-    { name = "numpy" },
-    { name = "pip" },
-    { name = "torch" },
+    { name = "numpy", marker = "platform_system == 'Windows'" },
+    { name = "pip", marker = "platform_system == 'Windows'" },
+    { name = "torch", marker = "platform_system == 'Windows'" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "numpy", specifier = ">=1.26.3" },
     { name = "pip", specifier = ">=24.3.1" },
-    { name = "torch", specifier = ">=2.5.0" },
+    { name = "torch", specifier = ">=2.5.0", index = "https://download.pytorch.org/whl/test/xpu" },
 ]
 
 [[package]]
 name = "typing-extensions"
 version = "4.12.2"
-source = { registry = "https://download.pytorch.org/whl/test/xpu" }
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/df/db/f35a00659bc03fec321ba8bce9420de607a1d37f8342eee1863174c69557/typing_extensions-4.12.2.tar.gz", hash = "sha256:1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8", size = 85321 }
 wheels = [
-    { url = "https://download.pytorch.org/whl/test/typing_extensions-4.12.2-py3-none-any.whl" },
+    { url = "https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl", hash = "sha256:04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d", size = 37438 },
 ]
